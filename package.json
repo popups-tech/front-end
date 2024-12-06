@@ -2,7 +2,12 @@
   "name": "@front-end/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "start": "nx run standalone:serve:development",
+    "start:widgets": "nx run widgets:serve:development",
+    "build:widget:dev": "nx run widget:build:development",
+    "build:widget:prod": "nx run widget:build:production"
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "~19.0.0",

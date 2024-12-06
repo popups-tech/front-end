@@ -1,8 +1,8 @@
 export default {
-  displayName: 'popups-fe',
+  displayName: 'widgets',
   preset: '../../jest.preset.js',
   setupFilesAfterEnv: ['<rootDir>/src/test-setup.ts'],
-  coverageDirectory: '../../coverage/apps/popups-fe',
+  coverageDirectory: '../../coverage/apps/widgets',
   transform: {
     '^.+\\.(ts|mjs|js|html)$': [
       'jest-preset-angular',

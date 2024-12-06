@@ -15,13 +15,13 @@ describe('AppComponent', () => {
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
     expect(compiled.querySelector('h1')?.textContent).toContain(
-      'Welcome popups-fe'
+      'Welcome standalone'
     );
   });
 
-  it(`should have as title 'popups-fe'`, () => {
+  it(`should have as title 'standalone'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('popups-fe');
+    expect(app.title).toEqual('standalone');
   });
 });
